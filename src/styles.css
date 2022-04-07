@@ -1,0 +1,40 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    background: linear-gradient(to right, #4b2b80, #1b9e51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  h1 {
+    margin: 0;
+    margin-bottom: .5rem;
+    color: darkorange;
+    background: #142637;
+    width: 60%;
+    height: 17%;
+    align-items: center;
+  }
+  
+  .input {
+    background-color: rgba(138, 131, 131, 0.9);
+    border: 1px solid #333;
+    border-radius: .3em;
+    padding: .25rem;
+    width: 7em;
+  }
+  
+  select {
+    background-color: rgba(138, 131, 131, 0.9);
+    margin-left: .5rem;
+  }
+  
+  .equals {
+    font-weight: bold;
+    font-size: 2rem;
+  }
